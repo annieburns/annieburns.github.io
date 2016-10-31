@@ -3,10 +3,10 @@
 <html>
 <head>
 <title>ANNIE BURNS</title>
+ <script type="text/javascript" src="app.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title">
   <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
-  <script type="text/javascript" src="app.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link href="http://allfont.net/allfont.css?fonts=norwester" rel="stylesheet" type="text/css" />
@@ -14,12 +14,14 @@
 
 
 <body>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920px" height="1080px" preserveAspectRatio="xMidYMid slice">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920px" height="1080px" preserveAspectRatio="xMidYMid slice" >
   <defs>
     <mask id="mask" x="0" y="0" width="1920" height="1080" >
       <rect x="0" y="0" width="1920" height="1080"/>
-      <text x="960" y="1em">ANNIE</text>
-      <text x="960" y="90%">BURNS</text>
+
+        <text x="960" y="1em" >ANNIE</text>
+        <text x="960" y="90%">BURNS</text>
+
     </mask>
   </defs>
   <rect x="0" y="0" width="1920" height="1080"/>
@@ -32,39 +34,30 @@
   </video>
 
 
-
-<div id="Midline">
-  <button id="button1" onclick="showhideAbout()">ABOUT</button>
-  <button id="button1" onclick="showhideWork()">WORK</button>
-  <button id="button1" onclick="showhideContact()">CONTACT</button>
-</div>
-
-
- <div id="aboutMe">
- <button id="buttonX" onclick="showhideAbout()">X</button>
-  <h2>ABOUT ME</h2>
-    <p>Annie has worked alongside award-winning directors such as Alejandro Inarritu and in the past six years she has produced over one hundred productions inclusive of campaigns, commercials, industrials, music videos, web content, independent feature as well as short films.  She has worked for an array of international clients such as Google, Nike, Tide, Yves Saint Laurent, Delta, Victoria’s Secret, NBC, Telefonica and many more.</p>
- <br><br>
-</div>
-
-
- <div id="work">
- <button id="buttonX" onclick="showhideWork()">X</button>
-  <h2>WORK</h2>
-    <h3>MultiMedia Producer - Reel</h3>
-     <div class="videoWrapper">
-        <iframe src="https://player.vimeo.com/video/152482289" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-     </div>
-     <br><br>
-     <hr>
+  <div id="Midline">
+    <button id="button1" >ABOUT</button>
+    <button id="button2" >WORK</button>
   </div>
 
- <div id="contact">
- <button id="buttonX" onclick="showhideContact()">X</button>
-  <h2>CONTACT</h2>
-    <p>anniebnyc@gmail.com</p>
- <br><br>
-</div>
+
+  <div id="aboutMe">
+    <button id="buttonX">X</button>
+      <h2>ABOUT ME</h2>
+       <p>Annie has worked alongside award-winning directors such as Alejandro Inarritu and in the past six years she has produced over one hundred productions inclusive of campaigns, commercials, industrials, music videos, web content, independent feature as well as short films.  She has worked for an array of international clients such as Google, Nike, Tide, Yves Saint Laurent, Delta, Victoria’s Secret, NBC, Telefonica and many more.</p>
+   <br><br>
+  </div>
+
+
+  <div id="work">
+    <button id="buttonX2">X</button>
+      <h2>WORK</h2>
+      <h3>MultiMedia Producer - Reel</h3>
+       <div class="videoWrapper">
+          <iframe src="https://player.vimeo.com/video/152482289" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+       </div>
+       <br><br>
+       <hr>
+    </div>
 
 
 </body>

@@ -24,6 +24,9 @@ font-family: 'Roboto', sans-serif;
 2. Reset Styles
 ======================= */
 
+#visualization{
+ border: 1px solid black;
+}
 
 * {
   box-sizing: border-box;
@@ -58,6 +61,7 @@ svg text {
 }
 svg mask rect {
     fill: rgba(255, 255, 255, 0.9);
+
 }
 svg > rect {
     fill: white;
@@ -70,8 +74,8 @@ svg > rect {
   left: 0%;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
+  width: 70%;
+  height: 70%;
   z-index: -1;
   overflow: hidden;
 }
@@ -108,6 +112,7 @@ svg > rect {
 #aboutMe{
 background-color: #F6201D;
 opacity: .9;
+display: none;
 height: 17em;
 width: 100em;
 padding: 10px;
@@ -127,6 +132,7 @@ margin:0 auto;
 #work{
 background-color: #1050b7;
 opacity: .9;
+display: none;
 height: 17em;
 width: 100em;
 padding: 10px;
@@ -136,29 +142,13 @@ border: outset black 7px;
 z-index: 10;
 text-align: center;
 font-size: .05em;
-/*white-space: normal;*/
+white-space: normal;
 overflow:scroll;
 margin:0 auto;
 
 }
 
-#contact{
-background-color: #10b742;
-opacity: .9;
-height: 17em;
-width: 100em;
-padding: 10px;
-margin: 10px;
-color: black;
-border: outset black 7px;
-z-index: 10;
-text-align: center;
-vertical-align: middle;
-font-size: .05em;
-/*white-space: normal;*/
-overflow:scroll;
-margin:0 auto;
-}
+
 
 
 
@@ -208,9 +198,10 @@ REEL VIDEO
 .videoWrapper iframe {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+
 }
 
 
@@ -221,7 +212,7 @@ REEL VIDEO
 BUTTONS
 ======================= */
 
-#buttonX {
+#buttonX, #buttonX2 {
   background-color: transparent;
   font-size: 1.5rem;
   color: black;
@@ -235,7 +226,7 @@ BUTTONS
  }
 
 
-#button1 {
+#button1, #button2 {
   background-color: black;
   font-size: 1rem;
   color: white;
