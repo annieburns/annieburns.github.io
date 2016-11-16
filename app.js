@@ -1,9 +1,10 @@
-
 window.onload = function() {
   document.getElementById("button1").addEventListener('click', showAbout);
   document.getElementById("buttonX").addEventListener('click', hideAbout);
   document.getElementById("button2").addEventListener('click', showWork);
   document.getElementById("buttonX2").addEventListener('click', hideWork);
+   document.getElementById("button3").addEventListener('click', showContact);
+  document.getElementById("buttonX3").addEventListener('click', hideContact);
 
 function showAbout() {
   const div = document.getElementById("aboutMe");
@@ -34,6 +35,23 @@ function showWork() {
 
 function hideWork() {
   const div = document.getElementById("work");
+    div.style.display = "none";
+ }
+
+
+function showContact() {
+  const div = document.getElementById("contact");
+  if (div.style.display !== "none") {
+      div.style.display = "none";
+  }
+  else {
+      div.style.display = "block";
+  }
+   }
+
+
+function hideContact() {
+  const div = document.getElementById("contact");
     div.style.display = "none";
  }
 }

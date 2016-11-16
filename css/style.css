@@ -1,0 +1,462 @@
+/*!
+Styles for full screen background video demo
+*/
+/* =============================================================================
+  RESETS
+============================================================================= */
+html,
+body,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* =============================================================================
+  CONTENT
+============================================================================= */
+.content {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.content__heading {
+  font-family: 'Norwester', arial;
+  text-shadow: 1px 1px 1px #aaa;
+  /*font-family: 'Bebas', arial;*/
+  margin-bottom: 10px;
+  color: white;
+  font-size: 8em;
+  opacity: .8;
+  margin-top: 1.4em;
+  position: relative;
+}
+
+.content__teaser {
+  margin-bottom: 24px;
+  color: #595959;
+  font-size: 22px;
+}
+
+.content__cta {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: #ff3c64;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px #ff3c64;
+}
+
+/* =============================================================================
+  VIDEO
+============================================================================= */
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+
+/* =======================
+3. Middle Nav
+======================= */
+#Midline {
+  background-color: white;
+  height: 3rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  color: black;
+  font-family: 'Norwester', arial;
+  z-index: 2;
+  display: block;
+  box-sizing: border-box;
+  background-color: black;
+  border: none;
+  vertical-align: middle;
+  margin: 0em auto;
+  position: absolute;
+  top:0%;
+  margin: 0;
+  padding: 0;
+ }
+
+/* =======================
+4.PopOut - About
+======================= */
+
+
+#aboutMe{
+background-color: #F6201D;
+display: none;
+width: 70%;
+color: black;
+border: outset black 7px;
+z-index: 100;
+text-align: center;
+vertical-align: middle;
+line-height: normal;
+white-space: normal;
+position: relative;
+margin: 0 auto;
+margin-top: 10%;
+padding: 1%;
+}
+
+
+#work{
+background-color: #00CED1;
+display: none;
+width: 70%;
+color: black;
+border: outset black 7px;
+z-index: 100;
+text-align: center;
+vertical-align: middle;
+position: relative;
+margin: 0 auto;
+margin-top: 10%;
+
+}
+
+
+
+#contact{
+background-image: url('../images/folkart.png');
+background-size: 100%;
+background-repeat: no-repeat;
+display: none;
+width: 70%;
+color: white;
+border: outset white 7px;
+z-index: 100;
+text-align: center;
+vertical-align: middle;
+line-height: normal;
+position: relative;
+margin: 0 auto;
+margin-top: 10%;
+padding: 1%;
+}
+
+
+#linkedin, #facebook, #pinterest{
+  vertical-align: middle;
+  text-align: center;
+  padding: 1%;
+  margin: 1%;
+  display:inline-block;
+}
+
+#contact h3  {
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: .6em;
+  color: white;
+}
+
+#contact h2  {
+  display: block;
+  padding-top: 10%;
+}
+
+
+/* =======================
+4.PopOut - CONTENT
+======================= */
+
+p {
+  font-size: .4em;
+  width: 100%;
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  overflow-wrap: all;
+  margin:0 auto;
+  display: block;
+  padding: 0em;
+  margin: 0em;
+}
+
+
+#work p {
+  font-size: .35em;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  color:black;
+  padding-top: 1.5%;
+}
+
+
+#work h4 {
+  text-align: center;
+  vertical-align: middle;
+  color:#DC143C;
+  padding-top: 1.5%;
+  font-size: .4em;
+  font-family: 'Oswald', sans-serif;
+}
+
+#developer p {
+  font-size: .3em;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  color:white;
+  padding-bottom: .5%;
+}
+
+#developerWork h4 {
+  font-size: .6em;
+  padding-bottom: 1%;
+  padding-top: 5%;
+  font-family: 'Norwester', arial;
+  margin: 0em;
+  color: white;
+}
+
+#developerWork p {
+  font-size: .3em;
+  font-family: 'Oswald', sans-serif;
+  margin: 0em;
+  color: #D3D3D3;
+  padding-bottom: 1%;
+}
+
+#developerSection  {
+  background-color: #DC143C;
+}
+
+
+
+
+h2{
+  font-size: 1em;
+  font-family: 'Norwester', arial;
+}
+
+h3{
+  font-size: .8em;
+  Font-family: 'Norwester', arial;
+  margin: 0em;
+  color: white;
+}
+
+h4{
+  font-size: .4em;
+  font-family: 'Oswald', sans-serif;
+  margin: 0em;
+  color: white;
+}
+
+
+/* =======================
+REEL VIDEO
+======================= */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 1px;
+  height: 0;
+
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+
+
+
+
+/* =======================
+BUTTONS
+======================= */
+
+#buttonX, #buttonX2, #buttonX3  {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: black;
+  -webkit-text-stroke: 1px grey;
+  text-align: left;
+  font-family: 'Norwester', arial;
+  z-index: 5;
+  border: none;
+  display: block;
+  float: left;
+ }
+
+
+#button1, #button2, #button3 {
+  background-color: white;
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Norwester', arial;
+  z-index: 5;
+  border: none;
+  padding-left: 2em;
+  padding-top: .5em;
+  display: block;
+  float: left;
+ }
+
+button:focus {
+  text-decoration: none;
+  outline:none;
+  border: none;
+  box-shadow: none;
+}
+
+#Midline:hover {
+  animation: border-flicker 2s linear forwards;
+}
+
+#Midline:hover button {
+  animation: text-flicker 2s linear forwards;
+}
+
+
+@keyframes text-flicker {
+  2% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+  3% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  6% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+  9% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  11% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+  14% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  18% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+  32% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+  33% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  37% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+  39% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  43% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+  46% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  47% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+  100% {
+    color: #F6201D;
+    text-shadow: 0 0 15px #F6201D;
+  }
+}
+
+
+
+
+
+
+
+/* =============================================================================
+  MOBILE AND HAMBURGER
+============================================================================= */
+#Midline {
+    width:100%;
+    background-color: white;
+  }
+
+  button {
+    width:33%;
+    float:left;
+    border-right: 1px solid #eee;
+  }
+  button:last-child {
+    border-right:none;
+  }
+
+  button a {
+    display: block;
+    width:80%;
+    background:#ddd;
+    padding:4% 10%;
+    font-size:1.35em;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    #menu {
+      width:1.4em;
+      display: block;
+      background:#ddd;
+      font-size:1.35em;
+      text-align: center;
+    }
+    #nav.js {
+      display: none;
+    }
+    #Midline {
+      width:100%;
+    }
+    button {
+      width:100%;
+      border-right:none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    #menu {
+      display: none;
+    }
+  }
+

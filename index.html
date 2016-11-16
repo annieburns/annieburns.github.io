@@ -1,71 +1,155 @@
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
+
 <head>
-<title>ANNIE BURNS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANNIE BURNS</title>
  <script type="text/javascript" src="app.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title">
-  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link href="http://allfont.net/allfont.css?fonts=norwester" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700">
+   <link href="http://allfont.net/allfont.css?fonts=bebas" rel="stylesheet" type="text/css" />
+
 </head>
-
-
 <body>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920px" height="1080px" preserveAspectRatio="xMidYMid slice" >
-  <defs>
-    <mask id="mask" x="0" y="0" width="1920" height="1080" >
-      <rect x="0" y="0" width="1920" height="1080"/>
 
-        <text x="960" y="1em" >ANNIE</text>
-        <text x="960" y="90%">BURNS</text>
-
-    </mask>
-  </defs>
-  <rect x="0" y="0" width="1920" height="1080"/>
-</svg>
-
-
-<video id="video" autoplay="autoplay" muted="muted" preload="auto" loop="loop">
-        <source src="smokemovie.mp4" type="video/mp4">
-        <source src="smokemovie.mov" type="video/omov">
-  </video>
-
-
-  <div id="Midline">
-    <button id="button1" >ABOUT</button>
-    <button id="button2" >WORK</button>
-  </div>
-
-
-  <div id="aboutMe">
-    <button id="buttonX">X</button>
-      <h2>ABOUT ME</h2>
-       <p>Annie has worked alongside award-winning directors such as Alejandro Inarritu and in the past six years she has produced over one hundred productions inclusive of campaigns, commercials, industrials, music videos, web content, independent feature as well as short films.  She has worked for an array of international clients such as Google, Nike, Tide, Yves Saint Laurent, Delta, Victoria’s Secret, NBC, Telefonica and many more.</p>
-   <br><br>
-  </div>
-
-
-  <div id="work">
-    <button id="buttonX2">X</button>
-      <h2>WORK</h2>
-      <h3>MultiMedia Producer - Reel</h3>
-       <div class="videoWrapper">
-          <iframe src="https://player.vimeo.com/video/152482289" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-       </div>
-       <br><br>
-       <hr>
+<!-- VIDEO
+ -->
+    <div class="content">
+      <h1 class="content__heading">ANNIE BURNS</h1>
     </div>
+
+    <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150">
+      <!-- <source src="media/smoke.mp4" type="video/mp4" />
+      <source src="media/smoke.m4v" type="video/mp4" /> -->
+      <source src="smoke.webm" type="video/webm" />
+    </video>
+
+
+    <script>
+    (function() {
+      var video = document.getElementById("my-video");
+      video.addEventListener( "canplay", function() {
+        video.play();
+      });
+    })();
+    </script>
+
+<!-- VIDEO
+ -->
+
+
+<!-- NAV AND POPOUTS
+ -->
+<div id="Midline">
+  <button id="button1" >ABOUT</button>
+  <button id="button2" >WORK</button>
+  <button id="button3" >CONTACT</button>
+
+<div id="aboutMe">
+  <button id="buttonX">X</button>
+    <h2>ABOUT ME</h2>
+     <p>Annie has worked alongside award-winning directors such as Alejandro Inarritu and in the past six years she has produced over one hundred productions inclusive of campaigns, commercials, industrials, music videos, web content, independent feature as well as short films.  She has worked for an array of international clients such as Google, Nike, Tide, Yves Saint Laurent, Delta, Victoria’s Secret, NBC, Telefonica and many more.</p>
+ <br><br>
+</div>
+
+
+
+<div id="work">
+  <button id="buttonX2">X</button>
+
+<div id="producer">
+    <h2>WORK - PORTFOLIO</h2>
+    <h3>MULTIMEDIA PRODUCER</h3>
+    <h4>PRODUCER REEL - TV/FILM/WEB CONTENT</h4>
+     <div class="videoWrapper">
+        <iframe src="https://player.vimeo.com/video/152482289" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+     </div>
+     </div>
+
+
+<div id="developerSection">
+<hr>
+     <h3>DEVELOPER</h3>
+     <h4>WEB DEVELOPMENT WORK</h4>
+<div id="developerWork">
+            <h4>Trailer-Park</h4>
+            <p> React JS, Javascript, HTML5, CSS, Node, Express, Heroku</p>
+            <a href="https://trailer-park.herokuapp.com/#/?_k=khz9m5">
+            <img src="images/trailerPark.png" alt="Go to trailer-park!" width="300" height="200" border="0">
+            </a>
+
+            <h4>Street Art</h4>
+            <p> React JS, Javascript, HTML5, CSS, Node, Express, Heroku</p>
+            <a href="https://graffiti-fans.herokuapp.com/#/?_k=d198kd">
+            <img src="images/graffiti.png" alt="Go to graffiti archive!" width="300" height="200" border="0">
+            </a>
+
+            <h4>Stranger Things - Trivia Season 1</h4>
+            <p>Javascript, HTML5, CSS</p>
+            <a href="https://annieburns.github.io/Project_1_Game/">
+            <img src="images/strangerThings.png" alt="Go to trivia game!" width="300" height="200" border="0">
+            </a>
+      </div>
+
+  <div id="developer">
+        <br>
+        <br>
+     <p> ALSO, CHECK OUT MY GITHUB: </p>
+        <p>
+        <a href="https://github.com/annieburns">
+        <img src="images/github.png" width="75" height="25" border="0">
+        </a>
+        <br>
+        </p>
+  </div>
+ </div>
+ </div>
+
+
+<div id="contact">
+
+ <button id="buttonX3">X</button>
+    <h2>Contact</h2>
+    <h3>anniebnyc@gmail.com</h3>
+
+<div id="linkedin">
+      <a href="https://www.linkedin.com/in/annieburns1">
+      <img src="images/linkedin.png" width="70" height="70" border="0" >
+      </a>
+</div>
+
+<div id="facebook">
+      <a href="https://www.facebook.com/anniebburns">
+      <img src="images/facebook.png" width="70" height="70" border="0" >
+      </a>
+</div>
+<div id="pinterest">
+      <p></p>
+      <a href="https://www.pinterest.com/anniebnyc/">
+      <img src="images/pinterest.png" width="70" height="70" border="0" >
+      </a>
+      </div>
+
+</div>
+
+
+<!-- NAV AND POPOUTS
+ -->
 
 
 </body>
 </html>
-<!--
-<p>Before entering the world of finance in New York, she earned a degree in Political Science with a minor in Business Administration from Boston University.  Annie was was originally trained as a financial analyst at one of the fastest growing companies in fashion; the company is currently valued at over $3.5 billion dollars.  Feeling lead to find a new challenge and follow her passion, she walked away from it all and began working in the film business, working herself up through the ranks and quickly establishing herself as an in-demand producer. </p>
 
-  <p>Recently Annie was proud to produce 'Swap Chef' a series of videos for Delta to launch their new culinary campaign. Under the direction of acclaimed chefs known for their use of local, seasonal ingredients, the airline is implementing a culinary philosophy and program steeped in seasonal, fresh, regional and frequently updated cuisine including craft beer, local wines and snack offerings.  Since the videos launch in December 2015, it has been well received by the press and was written about in an article in Vice Munchies, highlighting the video and the campaign. </p>
 
-  <p>She was also very proud to produce 'Change the Face of Technology' a video campaign for Google and the Rainbow PUSH Coalition interviewing Rev. Jesse Jackson and prominent African Americans across the nation in order to inspire a new generation of tech leaders and motivate the industry to champion and execute effective inclusion and diversity strategies. </p>
- -->
+
+
+
+
