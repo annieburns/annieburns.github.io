@@ -138,13 +138,14 @@ margin-top: 10%;
 
 
 #contact{
-background-image: url('../images/folkart.png');
+/*background-image: url('../images/folkart.png');*/
+background-color: #28B463;
 background-size: 100%;
 background-repeat: no-repeat;
 display: none;
 width: 70%;
 color: white;
-border: outset white 7px;
+border: outset black 7px;
 z-index: 100;
 text-align: center;
 vertical-align: middle;
@@ -152,7 +153,7 @@ line-height: normal;
 position: relative;
 margin: 0 auto;
 margin-top: 10%;
-padding: 1%;
+/*padding: 1%;*/
 }
 
 
@@ -167,13 +168,14 @@ padding: 1%;
 #contact h3  {
   display: block;
   font-family: 'Oswald', sans-serif;
-  font-size: .6em;
+  font-size: .5em;
   color: white;
 }
 
 #contact h2  {
   display: block;
-  padding-top: 10%;
+  padding-top: 1%;
+  color: black;
 }
 
 
