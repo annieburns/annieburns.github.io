@@ -210,7 +210,10 @@ br {
 /*background-color: #00b7be;*/
 /*background-image: url("../images/colorSmoke2.jpg");*/
 /*background-image: url("../images/purpleSmoke2.jpg");*/
-background-image: url("../images/purpleSmoke2.jpg");
+/*background-image: url("../images/purpleSmoke2.jpg");*/
+background-image: url("../images/colorMushroom.jpg");
+
+
 /*  background-size: cover;*/
 background-attachment: fixed;
     background-position: center;
@@ -220,7 +223,7 @@ background-attachment: fixed;
 
 display: none;
 width: 75%;
-color: black;
+color: white;
 border: outset black 7px;
 z-index: 100;
 text-align: center;
@@ -234,11 +237,12 @@ margin-top: 10%;
 #developerSection  {
  /* background-color: #6C3483;*/
 /* background-image: url("../images/purpleSmoke1.jpg");*/
-  background-image: url("../images/purpleSmoke.jpg");
+ /* background-image: url("../images/purpleSmoke.jpg");
   background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+   border-top: outset white 7px;
 }
 
 
@@ -246,7 +250,7 @@ margin-top: 10%;
 /*background-image: url('../images/folkart.png');*/
 /*background-color: #28B463;*/
 
-background-image: url("../images/colorSmoke2.jpg");
+background-image: url("../images/greenSmoke.jpg");
   background-size: contain;
 background-size: 100%;
 background-repeat: no-repeat;
@@ -283,7 +287,7 @@ margin-top: 10%;
 #contact h2  {
   display: block;
   padding-top: 1%;
-  color: black;
+  color: white;
 }
 
 
@@ -311,7 +315,7 @@ p {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   vertical-align: middle;
-  color:black;
+  color:white;
   padding-top: 1.5%;
 }
 
@@ -330,7 +334,7 @@ p {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   vertical-align: middle;
-  color:black;
+  color:white;
   padding-bottom: .5%;
 }
 
@@ -340,7 +344,7 @@ p {
   padding-top: 5%;
   font-family: 'Norwester', arial;
   margin: 0em;
-  color: black;
+  color: white;
 }
 
 #developerWork p {
@@ -352,15 +356,16 @@ p {
 }
 
 #developerWork h3 {
-  color: black;
+  color: white;
 }
 
 #developerSection h3 {
-  color: black;
+  color: white;
+  font-size: 1em;
 }
 
 #producer h3 {
-  color: black;
+  color: white;
 }
 
 
@@ -371,7 +376,7 @@ h2{
 }
 
 h3{
-  font-size: .8em;
+  font-size: .6em;
  font-family: 'Oswald', arial;
   margin: 0em;
   color: white;
@@ -403,6 +408,7 @@ REEL VIDEO
   padding-top: 1px;
   height: 0;
 
+
 }
 .videoWrapper iframe {
   position: absolute;
@@ -410,6 +416,7 @@ REEL VIDEO
   left: 10%;
   width: 80%;
   height: 80%;
+   border: outset grey 7px;
 }
 
 
