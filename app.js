@@ -1,10 +1,20 @@
 window.onload = function() {
   document.getElementById("button1").addEventListener('click', showAbout);
-  document.getElementById("buttonX").addEventListener('click', hideAbout);
+  document.getElementById("button2").addEventListener('click', hideAbout);
+  document.getElementById("button3").addEventListener('click', hideAbout);
+
   document.getElementById("button2").addEventListener('click', showWork);
+  document.getElementById("button1").addEventListener('click', hideWork);
+  document.getElementById("button3").addEventListener('click', hideWork);
+
+  document.getElementById("button3").addEventListener('click', showContact);
+  document.getElementById("button2").addEventListener('click', hideContact);
+  document.getElementById("button1").addEventListener('click', hideContact);
+
+  document.getElementById("buttonX").addEventListener('click', hideAbout);
   document.getElementById("buttonX2").addEventListener('click', hideWork);
-   document.getElementById("button3").addEventListener('click', showContact);
   document.getElementById("buttonX3").addEventListener('click', hideContact);
+
 
 function showAbout() {
   const div = document.getElementById("aboutMe");
