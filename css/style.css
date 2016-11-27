@@ -201,7 +201,7 @@ br {
 #about-lists  {
  width: 70%;
   position:relative;
-   border: outset grey 7px;
+   border: outset grey 4px;
    background-color: black;
    color:white;
    z-index: 10;
@@ -213,7 +213,7 @@ br {
 #about-intro{
   width: 70%;
   position:relative;
-   border: outset grey 7px;
+   border: outset grey 4px;
  background-color: black;
    color:white;
    z-index: 10;
@@ -268,7 +268,7 @@ margin-top: 10%;
 {
   width: 60%;
   position:relative;
-   border: outset grey 7px;
+   border: outset grey 4px;
    background-color: black;
    z-index: 10;
    left:20%;
@@ -447,7 +447,7 @@ REEL VIDEO
   left: 10%;
   width: 80%;
   height: 80%;
-   border: outset grey 7px;
+   border: outset grey 4px;
 }
 
 
