@@ -284,7 +284,7 @@ margin-top: 10%;
 
 
 #devBox h3{
- font-family: 'Norwester', arial;
+font-family: 'Oswald', arial;
   color: black;
   margin: 0;
   padding: 0;
@@ -478,7 +478,6 @@ REEL VIDEO
 
 #videoBox{
   border: outset grey 4px;
-  font-family: 'Oswald', sans-serif;
   color: black;
   position: relative;
   height: auto;
@@ -495,7 +494,7 @@ REEL VIDEO
 
 
 #videoBox h3{
-  font-family: 'Norwester', arial;
+  font-family: 'Oswald', arial;
   color: white;
   margin: 0;
   padding: 0;
