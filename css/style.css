@@ -250,17 +250,6 @@ margin-top: 10%;
 }
 
 
-#developerSection  {
- /* background-color: #6C3483;*/
-/* background-image: url("../images/purpleSmoke1.jpg");*/
- /* background-image: url("../images/purpleSmoke.jpg");
-  background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-   border-top: outset white 7px;
-}
-
 #developerWork1,
 #developerWork2,
 #developerWork3,
@@ -275,6 +264,34 @@ margin-top: 10%;
    margin-top: 2%;
 }
 
+
+#devBox{
+  border: outset grey 4px;
+  color: white;
+  font-size: .6em;
+  position: relative;
+  height: auto;
+  width: 60%;
+  height: 0 auto;
+  background-color: #E5D75F;
+  text-align: center;
+  left: 20%;
+  line-height: normal;
+  padding:0;
+  margin: 0;
+}
+
+
+
+#devBox h3{
+ font-family: 'Norwester', arial;
+  color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: .8em;
+  line-height: normal;
+}
 
 
 #contact{
@@ -390,29 +407,36 @@ p {
   color: white;
 }
 
-#developerSection h3 {
-  color: white;
-  font-size: 1em;
-}
-
-#producer h3 {
-  color: white;
-}
 
 
-h2{
-  font-size: 1em;
+#aboutMe h2{
+  font-size: 1.5em;
   font-family: 'Norwester', arial;
   text-align: center;
+  color:white;
 }
 
-h3{
-  font-size: .6em;
- font-family: 'Oswald', arial;
-  margin: 0em;
-  color: white;
+#aboutMe h3{
+  font-size: .8em;
+  font-family: 'Norwester', arial;
   text-align: center;
+  color:black;
+  padding:0;
+  margin:0;
 }
+
+#aboutMe h5{
+  font-size: .8em;
+  font-family: 'Norwester', arial;
+  text-align: center;
+  color:white;
+  margin: 0em;
+  color: lightgrey;
+  padding:0;
+  margin:0;
+}
+
+
 
 h4{
   font-size: .4em;
@@ -438,20 +462,47 @@ REEL VIDEO
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 1px;
   height: 0;
-
-
 }
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
   left: 10%;
   width: 80%;
   height: 80%;
-   border: outset grey 4px;
+  border: outset grey 4px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1em;
+}
+
+#videoBox{
+  border: outset grey 4px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  position: relative;
+  height: auto;
+  width: 80%;
+  margin: 0;
+  background-color: #0F69AB;
+  text-align: center;
+  left: 10%;
+  margin-bottom: 1%;
+  font-size: .6em;
+  line-height: normal;
 }
 
 
 
+#videoBox h3{
+  font-family: 'Norwester', arial;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: .8em;
+  line-height: normal;
+}
 
 
 /* =======================
