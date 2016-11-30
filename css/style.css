@@ -328,12 +328,12 @@ margin: 0;
 
 
 #devBox h3{
-font-family: 'Oswald', arial;
+font-size: .8em;
+font-family: 'Oswald', sans-serif;
 color: black;
 margin: 0;
-padding: 0;
+padding: .05%;
 text-align: center;
-font-size: .8em;
 line-height: normal;
 }
 
@@ -544,12 +544,12 @@ line-height: normal;
 
 
 #videoBox h3{
-font-family: 'Oswald', arial;
+font-size: .8em;
+font-family: 'Oswald', sans-serif;
 color: white;
 margin: 0;
-padding: 0;
+padding: .05%;
 text-align: center;
-font-size: .8em;
 line-height: normal;
 }
 
